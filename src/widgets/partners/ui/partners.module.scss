@@ -1,0 +1,12 @@
+.partners {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 150px;
+	}
+}

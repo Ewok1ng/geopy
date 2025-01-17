@@ -1,0 +1,32 @@
+.about {
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+
+		font-size: 20px;
+		line-height: 1.38;
+	}
+
+	&__item {
+		position: relative;
+		display: flex;
+		gap: 15px;
+		align-items: center;
+
+		&::before {
+			content: '';
+
+			position: absolute;
+			top: 50%;
+			left: -15px;
+			transform: translateY(-50%);
+
+			width: 2px;
+			height: 2px;
+
+			background: $accent-color;
+			border-radius: 50%;
+		}
+	}
+}

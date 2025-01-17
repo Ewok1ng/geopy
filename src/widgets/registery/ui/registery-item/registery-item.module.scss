@@ -1,0 +1,12 @@
+.item {
+	margin-bottom: 40px;
+
+	&__title {
+		color: $accent-color;
+	}
+
+	&__link {
+		font-size: 26px;
+		color: inherit;
+	}
+}

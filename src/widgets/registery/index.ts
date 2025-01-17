@@ -1,0 +1,1 @@
+export { Registery } from './ui';

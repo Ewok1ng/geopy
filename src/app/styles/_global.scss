@@ -31,21 +31,14 @@ img {
 }
 
 body {
-	@include roboto(400);
-
 	position: relative;
+
 	overflow-x: hidden;
+
 	min-width: 320px;
-}
 
-.container {
-	max-width: $container-width;
-	margin: 0 auto;
-	padding: 0 30px;
-}
+	font-family: Arial, sans-serif;
+	color: $primary-color;
 
-@media (width <= 768px) {
-	.container {
-		padding: 0 15px;
-	}
+	background: $primary-background;
 }

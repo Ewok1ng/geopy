@@ -1,0 +1,20 @@
+.text {
+	line-height: 1.38;
+	color: $primary-color;
+
+	&--sm {
+		font-size: 20px;
+	}
+
+	&--md {
+		font-size: 20px;
+	}
+
+	&--lg {
+		font-size: 26px;
+	}
+
+	& + & {
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,31 @@
+.section {
+	padding: 50px 0;
+
+	&__wrapper {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__title {
+		max-width: 870px;
+
+		font-size: 50px;
+		font-weight: 400;
+		line-height: 1.38;
+		color: $primary-color;
+		text-transform: uppercase;
+	}
+}
+
+.line {
+	flex-grow: 1;
+	height: 1px;
+	background: linear-gradient(
+		90deg,
+		rgb(66 173 226 / 30%) 0%,
+		rgb(255 255 255 / 50%) 44%,
+		rgb(66 173 226 / 30%) 100%
+	);
+}

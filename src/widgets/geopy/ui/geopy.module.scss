@@ -1,0 +1,50 @@
+.geopy {
+	position: relative;
+	padding: 68px 0;
+	background:
+		$geopy-background,
+		url('@shared/assets/images/main-bg.png') no-repeat center center/cover;
+
+	&__inner {
+		max-width: 835px;
+	}
+
+	&__title {
+		margin-bottom: 15px;
+		font-size: 105px;
+		line-height: 1.5;
+		color: $accent-color;
+	}
+
+	&__info {
+		margin-bottom: 30px;
+		font-size: 35px;
+		line-height: 1.4;
+	}
+
+	&__quote {
+		position: relative;
+		padding-left: 18px;
+		font-size: 27px;
+		line-height: 1.4;
+
+		&::before {
+			content: '';
+
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+
+			width: 6px;
+			height: 100%;
+
+			background: linear-gradient(
+				180deg,
+				rgb(217 218 218 / 30%) 0%,
+				#d9dada 33.9%,
+				rgb(217 218 218 / 30%) 100%
+			);
+		}
+	}
+}

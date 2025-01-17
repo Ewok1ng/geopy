@@ -1,13 +1,7 @@
-@mixin roboto($weight: 400, $style: normal) {
-	font-family: 'Roboto Mono', serif;
+@mixin orbitron($weight: 400) {
+	/* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+	font-family: Orbitron;
 	font-optical-sizing: auto;
 	font-weight: $weight;
-	font-style: $style;
-}
-
-@mixin inter($weight: 400, $style: normal) {
-	font-family: Inter, serif;
-	font-optical-sizing: auto;
-	font-weight: $weight;
-	font-style: $style;
+	font-style: normal;
 }
