@@ -3,8 +3,10 @@ import React from 'react';
 
 import 'virtual:svg-icons-register';
 
+import './styles/styles.scss';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<div>main</div>
+		<div className="test">main</div>
 	</React.StrictMode>
 );
