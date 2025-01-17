@@ -59,6 +59,7 @@ module.exports = {
 		'import/extensions': 'off',
 		'import/prefer-default-export': 'off',
 		'react/jsx-no-useless-fragment': 'error',
+		'react/react-in-jsx-scope': 'off',
 		'no-unused-expressions': 'error',
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/no-var-requires': 'off',
