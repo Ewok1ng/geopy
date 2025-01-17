@@ -63,7 +63,13 @@ export const Partners = () => {
 			<Marquee>
 				<div className={styles.partners}>
 					{partners.map((item, index) => (
-						<a className={styles.partners__item} key={index} href={item.link}>
+						<a
+							className={styles.partners__item}
+							key={index}
+							href={item.link}
+							target="_blank"
+							rel="noreferrer"
+						>
 							<SvgIcon
 								className={styles.partners__icon}
 								name={item.icon}
