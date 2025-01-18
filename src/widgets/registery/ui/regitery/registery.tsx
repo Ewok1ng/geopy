@@ -25,7 +25,7 @@ const registery = [
 export const Registery = () => {
 	return (
 		<Section
-			sectionId="registery"
+			sectionId="registry"
 			title="Реестр отчественного ПО и свидетельства ЭВМ"
 		>
 			{registery.map((item, index) => (

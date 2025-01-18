@@ -42,10 +42,9 @@
 }
 
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	position: relative;
 	margin-bottom: 20px;
+	padding-right: 60px;
 }
 
 .info {
@@ -59,8 +58,19 @@
 .button {
 	cursor: pointer;
 
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	width: 30px;
 	height: 30px;
+	margin: 0;
+	padding: 0;
 
 	background: transparent;
 	border: none;
